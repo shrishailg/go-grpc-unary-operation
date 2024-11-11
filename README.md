@@ -8,8 +8,7 @@ This is simple application showing imlementation of Unary GRPC implementation
 
 1. brew install protobuf-c (to verify use: protoc --version)
 
-2. go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
-    protoc-gen-go --version
+2. go install google.golang.org/protobuf/cmd/protoc-gen-go@latest (to verify use:protoc-gen-go --version)
     
 3. to generate grpc models use commands: protoc --go-grpc_out=.  --go_out=.  *.proto
 
